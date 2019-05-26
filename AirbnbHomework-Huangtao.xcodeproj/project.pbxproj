@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9D3812B2281D72C002DF3AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D3812A2281D72C002DF3AA /* AppDelegate.swift */; };
+		A9D381302281D72C002DF3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D3812E2281D72C002DF3AA /* Main.storyboard */; };
+		A9D381322281D72D002DF3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D381312281D72D002DF3AA /* Assets.xcassets */; };
+		A9D381352281D72D002DF3AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D381332281D72D002DF3AA /* LaunchScreen.storyboard */; };
+		A9D3813D2281D7AC002DF3AA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D3813C2281D7AC002DF3AA /* TableViewController.swift */; };
+		B083A3E37C7DC80F4FEBAA4E /* Pods_AirbnbHomework_Huangtao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B7250E30F7B497C6CE1DF2 /* Pods_AirbnbHomework_Huangtao.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3026D5711D0B5A8502F5A9F2 /* Pods-AirbnbHomework-Huangtao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbHomework-Huangtao.debug.xcconfig"; path = "Target Support Files/Pods-AirbnbHomework-Huangtao/Pods-AirbnbHomework-Huangtao.debug.xcconfig"; sourceTree = "<group>"; };
+		A2CB04D3872D2A6527062A02 /* Pods-AirbnbHomework-Huangtao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbHomework-Huangtao.release.xcconfig"; path = "Target Support Files/Pods-AirbnbHomework-Huangtao/Pods-AirbnbHomework-Huangtao.release.xcconfig"; sourceTree = "<group>"; };
+		A9D381272281D72C002DF3AA /* AirbnbHomework-Huangtao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirbnbHomework-Huangtao.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D3812A2281D72C002DF3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9D3812F2281D72C002DF3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9D381312281D72D002DF3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9D381342281D72D002DF3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9D381362281D72D002DF3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D3813C2281D7AC002DF3AA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D7B7250E30F7B497C6CE1DF2 /* Pods_AirbnbHomework_Huangtao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirbnbHomework_Huangtao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9D381242281D72C002DF3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B083A3E37C7DC80F4FEBAA4E /* Pods_AirbnbHomework_Huangtao.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9D3811E2281D72C002DF3AA = {
+			isa = PBXGroup;
+			children = (
+				A9D381292281D72C002DF3AA /* AirbnbHomework-Huangtao */,
+				A9D381282281D72C002DF3AA /* Products */,
+				F7F6389893D8AC936D697AD0 /* Pods */,
+				E26B447073EE0B6AF3E013CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D381282281D72C002DF3AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D381272281D72C002DF3AA /* AirbnbHomework-Huangtao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9D381292281D72C002DF3AA /* AirbnbHomework-Huangtao */ = {
+			isa = PBXGroup;
+			children = (
+				A9D3813C2281D7AC002DF3AA /* TableViewController.swift */,
+				A9D3812A2281D72C002DF3AA /* AppDelegate.swift */,
+				A9D3812E2281D72C002DF3AA /* Main.storyboard */,
+				A9D381312281D72D002DF3AA /* Assets.xcassets */,
+				A9D381332281D72D002DF3AA /* LaunchScreen.storyboard */,
+				A9D381362281D72D002DF3AA /* Info.plist */,
+			);
+			path = "AirbnbHomework-Huangtao";
+			sourceTree = "<group>";
+		};
+		E26B447073EE0B6AF3E013CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7B7250E30F7B497C6CE1DF2 /* Pods_AirbnbHomework_Huangtao.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7F6389893D8AC936D697AD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3026D5711D0B5A8502F5A9F2 /* Pods-AirbnbHomework-Huangtao.debug.xcconfig */,
+				A2CB04D3872D2A6527062A02 /* Pods-AirbnbHomework-Huangtao.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9D381262281D72C002DF3AA /* AirbnbHomework-Huangtao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D381392281D72D002DF3AA /* Build configuration list for PBXNativeTarget "AirbnbHomework-Huangtao" */;
+			buildPhases = (
+				6E42A3DBA8C2A02F04FBB606 /* [CP] Check Pods Manifest.lock */,
+				A9D381232281D72C002DF3AA /* Sources */,
+				A9D381242281D72C002DF3AA /* Frameworks */,
+				A9D381252281D72C002DF3AA /* Resources */,
+				59068973AB0A649C8B342BC9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AirbnbHomework-Huangtao";
+			productName = "AirbnbHomework-Huangtao";
+			productReference = A9D381272281D72C002DF3AA /* AirbnbHomework-Huangtao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9D3811F2281D72C002DF3AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = happts;
+				TargetAttributes = {
+					A9D381262281D72C002DF3AA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A9D381222281D72C002DF3AA /* Build configuration list for PBXProject "AirbnbHomework-Huangtao" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9D3811E2281D72C002DF3AA;
+			productRefGroup = A9D381282281D72C002DF3AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9D381262281D72C002DF3AA /* AirbnbHomework-Huangtao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9D381252281D72C002DF3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D381352281D72D002DF3AA /* LaunchScreen.storyboard in Resources */,
+				A9D381322281D72D002DF3AA /* Assets.xcassets in Resources */,
+				A9D381302281D72C002DF3AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59068973AB0A649C8B342BC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirbnbHomework-Huangtao/Pods-AirbnbHomework-Huangtao-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CRRefresh/CRRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CRRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirbnbHomework-Huangtao/Pods-AirbnbHomework-Huangtao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E42A3DBA8C2A02F04FBB606 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirbnbHomework-Huangtao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9D381232281D72C002DF3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D3812B2281D72C002DF3AA /* AppDelegate.swift in Sources */,
+				A9D3813D2281D7AC002DF3AA /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9D3812E2281D72C002DF3AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D3812F2281D72C002DF3AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9D381332281D72D002DF3AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D381342281D72D002DF3AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9D381372281D72D002DF3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9D381382281D72D002DF3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9D3813A2281D72D002DF3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3026D5711D0B5A8502F5A9F2 /* Pods-AirbnbHomework-Huangtao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU63YWUX27;
+				INFOPLIST_FILE = "AirbnbHomework-Huangtao/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "happts.AirbnbHomework-Huangtao";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9D3813B2281D72D002DF3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CB04D3872D2A6527062A02 /* Pods-AirbnbHomework-Huangtao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZU63YWUX27;
+				INFOPLIST_FILE = "AirbnbHomework-Huangtao/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "happts.AirbnbHomework-Huangtao";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9D381222281D72C002DF3AA /* Build configuration list for PBXProject "AirbnbHomework-Huangtao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D381372281D72D002DF3AA /* Debug */,
+				A9D381382281D72D002DF3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D381392281D72D002DF3AA /* Build configuration list for PBXNativeTarget "AirbnbHomework-Huangtao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D3813A2281D72D002DF3AA /* Debug */,
+				A9D3813B2281D72D002DF3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9D3811F2281D72C002DF3AA /* Project object */;
+}

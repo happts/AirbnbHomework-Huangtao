@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.8.2)
+  - CRRefresh (1.1.3)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.1)
+  - CRRefresh
+  - SwiftyJSON (~> 4.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CRRefresh
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  CRRefresh: 1415d4ae06837fa7bb064c44f2e102f3ef517044
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 5579e7c309a27b853b130e45bcf39622d4e8ea59
+
+COCOAPODS: 1.6.1
